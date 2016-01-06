@@ -15,3 +15,9 @@ C++ Project File Tools
     put the gearslogy-project-file.el in the ~/.emacs.d/youpath
     (add-to-list 'load-path "~/.emacs.d/yourpath/")
     (require 'gearslogy-project-file)
+
+    jump to the header files
+    M-x gly-switch-current-buffer-to-header
+
+    jump to include files
+    M-x gly-jump-to-header-files
